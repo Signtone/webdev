@@ -17,8 +17,6 @@ a {
   background-color: #000000;
 }
 
-
-
 .nav-list {
   font-family: Roboto, sans-serif;
   font-size: 14px;
@@ -29,5 +27,6 @@ a {
   align-items: center;
   vertical-align: middle;
   justify-content: space-around;
-
+  padding-left: 455px;
+  padding-right: 466px;
 }

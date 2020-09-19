@@ -23,7 +23,7 @@ a {
 .wrapper-header {
   margin: 0 auto;
   max-width: 1600px;
-  background: url('assets/backgrounds/your-life-bg.png');
+  background: url("assets/backgrounds/your-life-bg.png");
 }
 
 .page-header {
@@ -50,7 +50,7 @@ a {
   font-size: 14px;
   font-weight: 400px;
   line-height: 19.6px;
-  color: #ffffff;
+  color: rgba(255, 255, 255, 0.8);
 }
 
 .nav-link:hover {
@@ -69,7 +69,7 @@ a {
 .nav-items:first-child {
   text-decoration: underline;
   font-weight: bold;
-  color: #808080;
+  color: #ffffff;
 }
 
 .logo:hover {
@@ -80,5 +80,97 @@ a {
 .your-life {
   width: 100%;
   height: 648px;
-  
+}
+
+.tagline-block {
+  position: absolute;
+  width: 732px;
+  height: 245px;
+  left: 585px;
+  top: 224px;
+}
+
+.main-tagline {
+  font-family: Roboto, sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 64px;
+  line-height: 86px;
+  color: #ffffff;
+  white-space: nowrap;
+  text-align: center;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+.tagline-description {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 140%;
+  text-align: center;
+  color: #ffffff;
+  margin-top: 15px;
+  letter-spacing: 1px;
+}
+
+.btn-main {
+  width: 184px;
+  height: 46px;
+  background: #00afdb;
+  padding: 15px 47px;
+  font-family: Roboto, sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 16px;
+  align-items: center;
+  text-align: center;
+  text-transform: uppercase;
+  color: #ffffff;
+  white-space: nowrap;
+}
+
+.btn-life {
+  position: absolute;
+  margin-top: 30px;
+  margin-left: 274px;
+}
+
+.btn-life:hover {
+  background: #009cc2;
+  transition: 0.2s ease-out;
+}
+
+.btn-life:active {
+  background: #106d85;
+}
+
+.social-block {
+  position: absolute;
+  width: 273px;
+  height: 104px;
+  left: 233px;
+  top: 368px;
+}
+
+.social-list {
+  display: flex;
+  list-style: none;
+  align-items: center;
+  vertical-align: middle;
+  justify-content: center;
+  margin-top: 42px;
+  margin-left: -3px;
+}
+
+.social-link {
+  margin: 0 15px;
+}
+
+.social-icon:hover {
+  cursor: pointer;
+  border: 2px solid #106d85;
+  transition: 0.2s ease-out;
 }

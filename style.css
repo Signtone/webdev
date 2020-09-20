@@ -1,7 +1,237 @@
 * {
   box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
-body {
+a {
+  text-decoration: none;
+}
+
+.main-wrapper {
   max-width: 100%;
+  margin: auto;
+}
+
+.header-wrapper {
+  max-width: 1600px;
+  height: 744px;
+  margin: auto;
+  background: url("assets/backgrounds/your-life-bg.png");
+}
+
+.visually-hidden {
+  position: absolute;
+  clip: rect(1px, 1px, 1px, 1px);
+  -webkit-clip-path: inset(0px 0px 99.9% 99.9%);
+  clip-path: inset(0px 0px 99.9% 99.9%);
+  overflow: hidden;
+  height: 1px;
+  width: 1px;
+  padding: 0;
+  border: 0;
+}
+
+.nav-list {
+  width: 100%;
+  height: 96px;
+  display: flex;
+  list-style: none;
+  align-items: center;
+  justify-content: center;
+  vertical-align: middle;
+}
+
+.logo {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.nav-list li {
+  margin-left: 30px;
+  margin-right: 40px;
+}
+
+.nav-link {
+  font-family: "Roboto Regular", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 140%;
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.nav-link:hover {
+  cursor: pointer;
+  text-decoration: underline;
+  color: #808080;
+  transition: 0.2s ease-out;
+}
+
+.nav-link:active {
+  cursor: pointer;
+  text-decoration: underline;
+  color: rgb(85, 55, 55);
+}
+
+.nav-items:first-child {
+  text-decoration: underline;
+  color: #ffffff;
+}
+
+.logo:hover {
+  transform: rotate(180deg);
+  transition: 0.5s ease-out;
+}
+
+.tagline-block {
+  position: absolute;
+  width: 732px;
+  height: 245px;
+  left: 585px;
+  top: 224px;
+}
+
+.main-tagline {
+  font-family: "Roboto Bold", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 83px;
+  color: #ffffff;
+  white-space: nowrap;
+  text-align: center;
+  letter-spacing: 4.5px;
+  text-transform: uppercase;
+}
+
+.tagline-description {
+  font-family: "Roboto Regular", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 25.2px;
+  text-align: center;
+  color: #ffffff;
+  margin-top: 18px;
+}
+
+.btn-main {
+  width: 184px;
+  height: 46px;
+  background: #00afdb;
+  padding: 15px 47px;
+  font-family: "Roboto Bold", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+  align-items: center;
+  text-align: center;
+  text-transform: uppercase;
+  color: #ffffff;
+  white-space: nowrap;
+}
+
+.btn-life {
+  position: absolute;
+  margin-top: 30px;
+  margin-left: 275px;
+}
+
+.btn-life:hover {
+  background: #009cc2;
+  transition: 0.2s ease-out;
+}
+
+.btn-life:active {
+  background: #106d85;
+}
+
+.social-block {
+  position: absolute;
+  width: 273px;
+  height: 104px;
+  left: 233px;
+  top: 368px;
+}
+
+.social-list {
+  display: flex;
+  list-style: none;
+  align-items: center;
+  vertical-align: middle;
+  justify-content: center;
+  margin-top: 42px;
+  margin-left: -3px;
+}
+
+.social-link {
+  margin: 0 15px;
+}
+
+.social-icon:hover {
+  cursor: pointer;
+  transform: rotate(180deg);
+  transition: 0.5s ease-out;
+}
+
+.rappresent {
+  width: 100%;
+  height: 842px;
+  background-color: plum;
+}
+
+.rappresent-block {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.rappresent-text-block {
+  display: flex;
+  flex-direction: column;
+  margin-top: 298px;
+  margin-left: -660px;
+}
+
+.rappresent-heading {
+  font-family: "Roboto Bold", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #373737;
+}
+
+.rappresent-text {
+  font-family: "Roboto Regular", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 19.6px;
+  color: #4E4E4E;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.logic-selection {
+  font-family: "Roboto Medium", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 19.6px;
+  color: #373737;
+}
+
+.btn-rappresent {
+  position: absolute;
+  margin-top: 184px;
+}
+
+.rappresent-image {
+  position: absolute;
+  margin-top: 175px;
+  margin-left: 328px;
 }

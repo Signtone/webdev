@@ -227,6 +227,15 @@ a {
   color: #373737;
 }
 
+.btn-rappresent:hover {
+  background: #009cc2;
+  transition: 0.2s ease-out;
+}
+
+.btn-rappresent:active {
+  background: #106d85;
+}
+
 .community {
   width: 1600px;
   height: 504px;

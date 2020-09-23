@@ -176,21 +176,16 @@ a {
 }
 
 .rappresent {
-  width: 100%;
+  width: 1600px;
   height: 842px;
-}
-
-.rappresent-block {
   display: flex;
-  align-items: center;
-  justify-content: space-around;
 }
 
 .rappresent-text-block {
-  display: flex;
-  flex-direction: column;
-  margin-top: 298px;
-  margin-left: -660px;
+  height: 842px;
+  width: 405px;
+  margin-left: 422px;
+  padding-top: 298px;
 }
 
 .rappresent-heading {
@@ -211,8 +206,15 @@ a {
   font-size: 14px;
   line-height: 19.6px;
   color: #4e4e4e;
-  margin-top: 20px;
-  margin-bottom: 20px;
+  margin-top: 21px;
+  margin-bottom: 46px;
+}
+
+.rappresent-image-container {
+  height: 842px;
+  width: 407px;
+  margin-left: 249px;
+  padding-top: 120px;
 }
 
 .logic-selection {
@@ -222,26 +224,6 @@ a {
   font-size: 14px;
   line-height: 19.6px;
   color: #373737;
-}
-
-.btn-rappresent {
-  position: absolute;
-  margin-top: 184px;
-}
-
-.btn-rappresent:hover {
-  background: #009cc2;
-  transition: 0.2s ease-out;
-}
-
-.btn-rappresent:active {
-  background: #106d85;
-}
-
-.rappresent-image {
-  position: absolute;
-  margin-top: 175px;
-  margin-left: 328px;
 }
 
 .community {
@@ -685,7 +667,7 @@ textarea {
 
 .copyright-container {
   height: 185px;
-  width: 170px;
+  width: 172px;
   margin-left: 448px;
   padding-top: 74px;
 }

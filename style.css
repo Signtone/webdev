@@ -178,6 +178,7 @@ a {
 .rappresent {
   width: 1600px;
   height: 842px;
+  margin: auto;
   display: flex;
 }
 
